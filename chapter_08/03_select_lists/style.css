@@ -1,0 +1,13 @@
+#rankings .list {
+  float: left;
+  margin-right: 20px;
+}
+
+.list .invert {
+  display: block;
+}
+
+#controls {
+  clear: both;
+  padding-top: 20px;
+}

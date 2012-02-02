@@ -1,0 +1,12 @@
+.over-inline {
+	background-color: #FFFACD;
+}
+
+.active-inline {
+	background-color: inherit;
+}
+
+.active-inline textarea {
+	height: 10em;
+	width: 100%;
+}

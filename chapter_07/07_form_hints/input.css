@@ -1,0 +1,18 @@
+.inactive {
+  color: #666666;
+}
+
+form {
+  margin-right: 40px;
+}
+
+form div {
+  margin: 0 0 10px 160px;
+}
+
+form div label {
+	width: 140px;
+	float: left;
+	text-align: right;
+	margin: 5px 20px 0 -160px;
+}

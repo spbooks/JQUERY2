@@ -1,0 +1,21 @@
+.faux-head {
+  position: absolute;
+  z-index: 100;
+  background-color: #fff;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.faux-head li {
+  float: left;
+  color: #D15600;
+  border-bottom:2px solid #015287;
+  color:#D15600;
+  font-size:14px;
+  font-weight:normal;
+  padding:3px 8px;
+  text-align:left;
+  margin: 0;
+}
+

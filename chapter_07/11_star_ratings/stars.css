@@ -1,0 +1,29 @@
+.stars div a {
+  background: transparent url(sprite_rate.png) 0 0 no-repeat;
+  display: inline-block;
+  height: 23px;
+  width: 12px;
+  text-indent: -999em;
+  overflow: hidden;
+}
+
+.stars a.rating-right {
+  background-position: 0 -23px;
+  padding-right: 6px;
+}
+
+.stars a.rating-over {
+  background-position: 0 -46px;
+}
+
+.stars a.rating-over.rating-right {
+  background-position: 0 -69px;
+}
+
+.stars a.rating {
+  background-position: 0 -92px;
+}
+
+.stars a.rating.rating-right {
+  background-position: 0 -115px;
+}

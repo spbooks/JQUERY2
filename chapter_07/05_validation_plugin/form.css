@@ -1,0 +1,30 @@
+label {
+  display: block;
+}
+label.valid {
+  width: 24px;
+  background: url(valid.png) center center no-repeat;
+  display: inline-block;
+  text-indent: -9999px;
+}
+
+label.error {
+  padding-left: 5px;
+  display: inline-block;
+}
+
+input {
+  display: inline-block;
+}
+
+form div {
+  padding: 5px;
+  float: left;
+  clear: left;
+  width: 100%;
+}
+
+button {
+  margin-top: 10px;
+}
+

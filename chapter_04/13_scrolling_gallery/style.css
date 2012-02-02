@@ -1,0 +1,16 @@
+#pic_container {
+  overflow: hidden;
+  height: 200px;
+  width: 200px;
+  margin-bottom: 15px;
+}
+
+#pic_scroller {
+  height: 600px;
+  width: 800px;
+  overflow: hidden;
+}
+
+#pic_scroller img {
+  float: left;
+}

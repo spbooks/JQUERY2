@@ -1,0 +1,39 @@
+#tags .ui-selecting { 
+  background: #FEFF9F; 
+}
+
+#tags .ui-selected { 
+  background-color:#eEeF8F; 
+}
+
+#approve, .approve { 
+  background-color:#7EDF7D; 
+}
+
+#reject, .reject { 
+  background-color:#FF9F9F; 
+}
+
+#clear { 
+  background-color:#eee;
+}
+
+#tag-control {
+  clear: both;
+}
+
+#tags { 
+	list-style-type: none; 
+	margin: 0; 
+	padding: 0; 
+}
+#tags li { 
+	border: 1px solid #ccc;
+	float: left; 
+	width: 60px; 
+	height: 60px; 
+	font-size:1.1em;
+	margin:3px;
+	padding:0.4em;
+	text-align:center;
+}

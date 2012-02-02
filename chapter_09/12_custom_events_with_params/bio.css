@@ -1,0 +1,32 @@
+#bio {
+  margin-bottom: 10px;
+}
+
+#bio h3 {
+  margin:0;
+  padding:5px 0 5px 10px;
+  background-color:#94C5EB;
+  border-bottom:1px solid #fff;
+  color: #00314F;
+  font-weight:normal;
+}
+
+#bio div {
+  height:120px;
+  background-color: #F4F4EE;
+  border-bottom:1px solid #fff;
+  position: relative;
+}
+
+#bio img {
+  margin:10px;
+  background-color: #F4F4EE;
+}
+
+#bio p {
+  position: absolute;
+  left: 120px;
+  top: 10px;
+  margin: 0 10px 0 0;
+  padding: 0;
+}

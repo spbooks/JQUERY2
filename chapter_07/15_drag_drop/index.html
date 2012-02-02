@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset=utf-8>
+  <title>StarTrackr!</title>
+  
+  <link rel="stylesheet" href="../../css/base.css" media="screen">
+  <link rel="stylesheet" href="dragdrop.css" media="screen">
+  
+  <style>
+    #photo-grid img {
+      width: 100px;
+    }
+  </style>
+  
+  <script src="../../lib/jquery-1.7.1.min.js"></script>
+  <script src="../../lib/jquery-ui-1.8.17.custom.min.js"></script>
+  <script src="script.js"></script>
+</head>
+<body>
+  <section id="container">
+    <header id="header">
+      <h1>StarTrackr!</h1>
+    </header>
+    <div id="content">
+      <h2>Celebs</h2>
+  
+      <div class="trash">
+        <img src="trash.png" alt="trash"/>
+        <span id="trash-title">Drag images here to delete</span>
+      </div>
+      <div id="photo-grid">
+        <img src="../../images/fader_100.jpg" />
+        <img src="../../images/beau_100.jpg" />
+        <img src="../../images/glenda_100.jpg" />
+        <img src="../../images/mofat_100.jpg" />
+      </div>
+    </div>
+  
+    <footer id="footer">
+      <p>
+        &copy; Copyright 2010 CelebriTracker Productions
+      </p>
+    </footer>
+  </section>
+</body>
+</html>

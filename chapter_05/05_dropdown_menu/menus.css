@@ -1,0 +1,36 @@
+#container {
+  position: relative;
+}
+
+#menu {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+#menu, #menu ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+#menu li {
+  float: left;
+  background: #FFF;
+}
+
+#menu a {
+  display: block;
+  padding: 5px;
+  width: 130px;
+}
+
+#menu li ul {
+  position: absolute;
+  left: -999em;
+  width: 140px;
+}
+
+#menu li:hover ul, #menu li ul:hover {
+  left:auto;
+}

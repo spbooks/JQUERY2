@@ -1,0 +1,32 @@
+#overlay {
+	bottom: 0;
+	display:none;
+	left: 0;
+	margin-right: auto;
+	margin-left: auto;
+	position: fixed;
+	right: 0;
+	top: 0;
+	width: 100%;
+	z-index: 100;
+}
+
+#blanket {
+	background-color: black;
+	bottom: 0;
+	display: block;
+	opacity: 0.8;
+	position: absolute;	
+	top: 0;
+	width: 100%;
+}
+
+.dialog {
+	background: white;
+	border-radius: 10px;
+	display: none;
+	margin: 100px auto;
+	position: relative;
+	width: 500px;
+	padding: 40px;
+}

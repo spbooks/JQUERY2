@@ -1,0 +1,9 @@
+#photos img {
+  position: absolute;
+}
+
+#photos {
+  width: 180px;
+  height: 200px;
+  overflow: hidden;
+}

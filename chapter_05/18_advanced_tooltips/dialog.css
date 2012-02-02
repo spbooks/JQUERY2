@@ -1,0 +1,42 @@
+span.dialog {
+  background: transparent url(sprite_dialogs.png) no-repeat scroll 0 0;
+  font: 15px/2 normal Helvetica,Arial,Verdana,sans-serif;
+  display: none;
+  height: 60px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  text-align: left;
+  white-space: nowrap;
+  width: 220px;
+  z-index: 100;
+}
+
+span.dialog span {
+  display: inline-block;
+  padding: 15px 0 0 12px;
+}
+
+span.dialog.left {
+  background-position: 100% 0;
+}
+
+span.dialog.left span {
+  padding: 15px 0 0 17px;
+}
+
+span.dialog.above {
+  background-position: 0 100%;
+}
+
+span.dialog.above span {
+  padding: 13px 0 0 12px;
+}
+
+span.dialog.above.left {
+  background-position: 100% 100%;
+}
+
+span.dialog.above.left span {
+  padding: 13px 0 0 17px;
+}

@@ -1,0 +1,87 @@
+#home {
+	position: relative;
+}
+
+#home div {
+	background: url(graphics/cover.png) transparent 50% 50% no-repeat;
+	background-size: 102%;
+	bottom: 0;
+	left: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+#home a {
+	top: 2.5em;
+	left: 50%;
+	margin-left: -25%;
+	position: absolute;
+	display: none;
+	width: 50%;
+}
+
+#album {
+	background: transparent 50% 50% no-repeat;
+	background-size: 120%;
+	overflow: hidden;
+}
+
+#album .ui-content {
+	background-color: rgba(33, 66, 99, .25);
+	bottom: 54px;
+	padding: 0;
+	position: absolute;
+	width: 100%;
+}
+
+#album .ui-body {
+	margin: 0;
+	padding: 1em;
+	text-align: center;
+}
+
+#album .ui-br {
+	border: none;
+}
+
+#album footer {
+	overflow: visible;
+}
+
+.oneup {
+	display: none;
+	position: absolute;
+	z-index: 999;
+}
+
+footer {
+	bottom: 0;
+	position: absolute !important;
+}
+
+footer div {
+	margin-left: auto !important;
+	margin-right: auto !important;
+	width: 80%;
+}
+
+footer div.wide {
+	width: 95%;
+}
+
+footer a {
+	width: 49.5%;
+}
+
+footer a.quatro {
+	width: 24.5%;
+}
+
+footer a.quatro:first-child {
+	width: 24.9%;
+}
+
+footer a.single {
+	width: 99.9%;
+}

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<celebs>
+  <celeb id="421">
+    <name>Johnny Stardust</name>
+    <image>johnny_200.jpg</image>
+  </celeb>
+  <celeb id="422">
+    <name>Kellie Kelly</name>
+    <image>kellie_200.jpg</image>
+  </celeb>
+  <celeb id="423">
+    <name>Mo'Fat</name>
+    <image>mofat_200.jpg</image>
+  </celeb>
+  <celeb id="424">
+    <name>Beau Dandy</name>
+    <image>beau_200.jpg</image>
+  </celeb>
+  <celeb id="425">
+    <name>Darth Fader</name>
+    <image>fader_200.jpg</image>
+  </celeb>
+  <celeb id="426">
+    <name>Glendatronix</name>
+    <image>glenda_200.jpg</image>
+  </celeb>
+</celebs>

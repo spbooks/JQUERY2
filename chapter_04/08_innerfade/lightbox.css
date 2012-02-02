@@ -1,0 +1,8 @@
+#news {
+  display: block;
+  height: 70px;
+}
+
+#news ul {
+  list-style-type: none;
+}

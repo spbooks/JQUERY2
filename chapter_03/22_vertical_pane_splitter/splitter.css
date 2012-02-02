@@ -1,0 +1,30 @@
+#splitter {
+    height: 300px;
+    margin-bottom: 40px;
+}
+#splitter .pane {
+    height: 50%;
+}
+
+#splitter h2 { 
+    margin-bottom:0; 
+    padding-bottom:0;
+}
+
+#tocPane { 
+    overflow: hidden;
+    background:#d6dde5 url(handle.png) no-repeat center bottom;
+}
+
+#tocPane .inner { 
+    height: 150px; 
+}
+
+#contentPane {
+    overflow: auto;
+    border-bottom: 2px solid #d6dde5;
+}
+
+#contentPane .inner {
+  padding: 0 5px;
+}

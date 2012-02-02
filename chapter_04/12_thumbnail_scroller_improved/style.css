@@ -1,0 +1,17 @@
+#photos {
+  overflow: hidden;
+  width: 600px;
+}
+
+#photos_inner {
+  height: 100px;
+  width: 1200px;
+  overflow: hidden;
+  position: relative;
+}
+
+#photos_inner img {
+  float: left;
+  width: 100px;
+  height: 100px;
+}

@@ -1,0 +1,22 @@
+#celebTree {
+	width:300px;
+	background-color:#F4F4EE;
+}
+
+#celebTree, #celebTree ul {
+	list-style-type: none;
+	margin-left:25px;
+	margin-bottom:5px;
+	padding:0;
+}
+
+.handle { 
+	background: transparent url( tree-handle.png ) no-repeat left top; 
+	display:block; 
+	float:left;
+	width:10px; 
+	height:10px;
+	cursor:pointer;
+}
+.closed { background-position: left top; }
+.opened { background-position: left -10px; }

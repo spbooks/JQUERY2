@@ -1,0 +1,28 @@
+#picker {
+	list-style-type:none;
+	margin:0;
+	padding: 10px 0 0 0;
+	width:200px;
+}
+
+#picker ul {
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}
+
+#picker ul li {
+	border:1px solid #ccc;
+	margin-bottom:3px;
+	cursor:pointer;
+	padding-left:8px;
+}
+
+.title { 
+  font-weight:bold;
+  padding-left: 8px;  
+}
+
+li li.selected {
+  background-color: #94C5EB
+}

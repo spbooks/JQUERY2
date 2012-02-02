@@ -1,0 +1,22 @@
+#navigation {
+  position: relative;
+}
+
+#content {
+  height: 2000px;
+}
+
+/* narrow the content to make room for floating nav */
+
+p {
+  width: 450px;
+}
+
+h2 {
+  width: 460px;
+}
+
+#celebs table {
+  width: 460px;
+  margin-left: 0;
+}

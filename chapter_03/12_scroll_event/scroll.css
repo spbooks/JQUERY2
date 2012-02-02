@@ -1,0 +1,9 @@
+span.scrolled {
+    background-color: red;
+}
+
+#news {
+    height: 100px;
+    width: 300px;
+    overflow: scroll;
+}

@@ -1,0 +1,39 @@
+#growl {
+  position: absolute;
+  bottom: 0;
+  right: 5px;
+  width: 320px;
+  z-index: 10;
+}
+
+.notice {
+  position: relative;
+  min-height: 30px;
+}
+
+.skin {
+  position: absolute;
+  background-color: #000000;
+  bottom: 0;
+  left: 0;
+  opacity: 0.6;
+  right: 0;
+  top: 0;
+  z-index: -1;
+  -moz-border-radius: 5px; -webkit-border-radius: 5px;
+}
+
+.close {
+  background: transparent url('egrowl.png') 0 0 no-repeat;
+  text-indent: -9999px;
+  position: absolute;
+  top: 2px;
+  right: 2px;
+  width: 26px;
+  height: 26px;
+}
+
+#growl p {
+  background: inherit;
+  color: #FFF;
+}

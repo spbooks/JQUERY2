@@ -1,0 +1,14 @@
+#gallery {
+  height: 420px;
+}
+
+#gallery img {
+  margin: 10px; 
+  float: left;
+  width: 180px;
+  height: 180px;
+}
+
+h2 {
+  clear: both;
+}

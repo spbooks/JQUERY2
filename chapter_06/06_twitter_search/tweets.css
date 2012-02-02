@@ -1,0 +1,13 @@
+#tweets img {
+	float:left;
+	margin:4px;
+	width:48px;
+	height:48px;
+}
+
+#tweets div {
+	clear:left;
+	height:60px;
+	border-bottom:1px dotted #ccc;
+	margin-top:5px;
+}

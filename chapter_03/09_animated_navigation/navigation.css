@@ -1,0 +1,45 @@
+#head {
+	padding-left: 20px;
+}
+
+#navigation {	
+	margin: 0 0 10px 0;
+	padding: 0;
+	list-style-type: none;	
+	position: relative;
+	z-index: 1;
+
+	/* overwrite base */
+	float: none;
+	width: 100%;
+}
+
+#navigation ul {
+	margin: 0;
+	padding: 0;
+}
+
+#navigation li {
+	display: inline;
+	margin: 0;
+	padding: 0;
+}
+
+#navigation a {
+	color: #015287;
+	display: inline-block;
+	padding: 5px;
+	text-decoration: none;
+}
+
+#navigation_blob {
+	top: 0;
+	background-color: #c0ffee;
+	position: absolute;
+	z-index: -1;
+}
+
+p#intro {
+	clear: both;
+	margin-top: 10px;
+}

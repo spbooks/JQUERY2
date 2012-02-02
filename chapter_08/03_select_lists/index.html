@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<title>StarTrackr!</title>
+	
+	<link rel="stylesheet" href="../../css/base.css" type="text/css" media="screen" charset="utf-8"/>
+	<link rel="stylesheet" href="style.css" type="text/css" media="screen" charset="utf-8"/>
+
+	<script src="../../lib/jquery-1.7.1.min.js" type="text/javascript" ></script>
+	<script src="../../lib/jquery-ui-1.8.17.custom.min.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+	<div id="container">
+		<div id="header">
+			<h1>StarTrackr!</h1>
+		</div>
+		<div id="content">
+			<h2>Rankings</h2>
+			
+			<div id="rankings">
+				<div class="list">
+					<h3>All Celebrities</h3>
+					<select id="candidates" name="candidates" multiple="multiple" size="8">
+						<option value="142">Beau Dandy</option>
+						<option value="142">Mo' Fat</option>
+						<option value="142">Mr Speaker</option>
+						<option value="142">Kelly Kellie</option>
+						<option value="142">Darth Fader</option>
+						<option value="142">C&amp;C Music Pty Ltd</option>
+						<option value="142">Computadors</option>
+						<option value="142">Baron von Jovi</option>
+					</select>
+					<a href="#" class="invert">Invert Selection</a>
+				</div>
+			
+				<div class="list">
+					<h3>A-Listers</h3>
+					<select id="a-listers" name="a-listers" multiple="multiple" size="8">
+						<option value="232">Johnny Stardust</option>
+						<option value="232">Glendatronix</option>
+						<option value="142">Beau Dandy</option>
+						<option value="142">The Punkless Brewster</option>
+						<option value="142">Thome Angeles</option>
+					</select>
+					<a href="#" class="invert">Invert Selection</a>
+				</div>
+		
+				<div id="controls">
+					<div>
+						<label>Swap:</label>
+						<input type="button" id="swapLeft" value="&gt;" />	
+						<input type="button" id="swapRight" value="&lt;" />
+					</div>
+          
+					<div>
+						<label>Swap All:</label>
+						<input type="button" id="swapLeftAll" value="&gt;&gt;" />
+						<input type="button" id="swapRightAll" value="&lt;&lt;" />
+					</div>
+          
+					<div>
+						<label for="search">Search:</label>
+						<input class="search" type="text" id="search" />
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="footer">
+			<p>
+				&copy; Copyright 2010 CelebriTracker Productions
+			</p>
+		</div>
+	</div>
+</body>
+</html>

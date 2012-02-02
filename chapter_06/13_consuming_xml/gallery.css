@@ -1,0 +1,63 @@
+#gallery {
+  background-color:#94C5EB;
+  border:1px solid #015287;
+  height:103px;
+  width: 325px;
+  overflow: auto;
+  text-align:center;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+#gallery img { 
+  width: 97px; 
+  height: 97px; 
+  float:left; 
+  border:1px 
+  solid #fff; 
+  padding:2px;
+}
+
+h2 {
+  clear: both;
+}
+
+#photoDetails{
+	border-color: #015287;
+	background-color:#F4F4EE;
+}
+
+#photoDetails legend{
+	color: #D15600;
+}
+
+#details{
+	width:250px;
+	float:left;
+	margin-right:15px;
+}
+
+#details .textField{
+	width: 100%;
+}
+
+#details p{
+	margin:0;
+}
+
+#ajaxInProgress{
+	width:610px;
+	height:13px;
+	margin-top:-5px;
+  padding: 2px 0;
+}
+
+#ajaxDetails{ float:right;}
+
+#status{
+	font-weight: bold;
+}
+
+.progress {
+  background: #fff url(progress.gif) no-repeat center right;
+}

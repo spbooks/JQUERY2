@@ -1,0 +1,7 @@
+#photos img {
+  display: none;
+}
+
+#photos .show {
+  display: inline;
+}

@@ -1,0 +1,13 @@
+#fine_print {
+    height: 6em;
+    overflow: auto;
+    width: 100%;
+}
+
+#fine_print p:first-child {
+    margin-top: 0;
+}
+
+.jspVerticalBar {
+    width: 10px !important;
+}

@@ -1,0 +1,9 @@
+#fader {
+  position: relative;
+}
+
+#fader .to {
+  display: none;
+  position: absolute;
+  left: 0;
+}

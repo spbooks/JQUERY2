@@ -1,0 +1,33 @@
+#gallery {
+  background-color:#94C5EB;
+  border:1px solid #015287;
+  height:103px;
+  text-align:center;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+#gallery img { 
+  width: 97px; 
+  height: 97px; 
+  float:left; 
+  border:1px 
+  solid #fff; 
+  padding:2px;
+}
+
+h2 {
+  clear: both;
+}
+
+#ajaxInProgress {
+	width:610px;
+	height:13px;
+	margin-top:-5px;
+	padding: 2px 0;
+}
+
+.progress {
+  background: #fff url(progress.gif) no-repeat center right;
+}

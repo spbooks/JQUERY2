@@ -1,0 +1,45 @@
+#container {
+  position: relative;
+}
+
+#navigation {
+  position:absolute;
+  width: inherit;
+  top: 0; 
+  right: 0;
+  margin: 0;
+}
+
+#navigation li {
+  height:20px;
+  float:left;
+  list-style-type: none;
+  width:70px;
+  padding:3px;
+  border-right:1px solid #3687AF;
+  background-color: #015287;
+  background-repeat: no-repeat;
+  background-position: center 30px;
+}
+
+#navigation ul {
+  padding: 0;
+  margin: 0;
+}
+
+#navigation li a {
+  color: #FFFFFF;
+}
+
+#navigation #home {
+  background-image:url('home_icon.png');
+}
+#navigation #about {
+  background-image:url('icon_about.png');
+}
+#navigation #buy {
+  background-image:url('icon_buy');
+}
+#navigation #gifts {
+  background-image:url('icon_gifts');
+}

@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset=utf-8>
+	<title>Pop Trumps</title>
+	<link rel="apple-touch-icon" href="graphics/icon.png">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+
+	<meta name=viewport content="width=device-width, initial-scale=1, user-scalable=0">
+
+	<link rel=stylesheet href="http://code.jquery.com/mobile/1.0/jquery.mobile-1.0.min.css">
+	<link rel=stylesheet href="style.css">
+
+	<script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+	<script src="scripts.js"></script>
+	<script src="http://code.jquery.com/mobile/1.0/jquery.mobile-1.0.min.js"></script>
+</head> 
+<body>
+	<section data-role="page" id="home">
+		<div data-role="content">
+			<a href="#albums" data-role="button">START</a>
+		</div>
+	</section>
+
+	<section data-role="page" id="albums">
+		<header data-role="header" data-theme="b">
+			<h1>Pop Trumps</h1>
+		</header>
+
+		<div data-role="content">
+			<p>Select an album by The Jemimas to play</p>
+			
+			<ul data-role="listview" data-inset="true" data-theme="b">
+				<li><a href="#album" data-transition="flip">The Jemimas: Debut</a></li>
+				<li><a href="#album" data-transition="flip">This is The Jemimas</a></li>
+				<li><a href="#album" data-transition="flip">Awkward Third</a></li>
+				<li><a href="#album" data-transition="flip">Best of The Jemimas</a></li>
+			</ul>
+		</div>
+
+		<footer data-role="footer" data-theme="c">
+			<div data-role="controlgroup" data-type="horizontal">
+				<a href="#home" data-role="button" data-direction="reverse" class="single">HOME</a>
+			</div>
+		</footer>
+	</section>
+
+	<section data-role="page" id="album">
+		<header data-role="header" data-theme="b">
+			<h1>Pop Trumps</h1>
+		</header>
+
+		<div data-role="content">
+			<div data-role="fieldcontain">
+				<label for="flip-a" class="ui-hidden-accessible">Select slider:</label>
+				<select name="slider" id="flip-a" data-role="slider" data-theme="c">
+					<option value="no">&#9756;Number 1s</option>
+					<option value="yes">6</option>
+				</select>
+				<label for="flip-b" class="ui-hidden-accessible">Select slider:</label>
+				<select name="slider" id="flip-b" data-role="slider" data-theme="c">
+					<option value="no">&#9756; B Sides &nbsp; &nbsp;  &nbsp; </option>
+					<option value="yes">3</option>
+				</select> 
+			</div>		
+		</div>
+
+		<footer data-role="footer" data-theme="c">
+			<div data-role="controlgroup" data-type="horizontal" class="wide">
+				<a href="#albums" data-role="button" data-direction="reverse" class="quatro">REDRAW</a>
+				<a href="" data-role="button" class="quatro score">WIN</a>
+				<a href="" data-role="button" class="quatro score">LOSE</a>
+				<a href="" data-role="button" class="quatro" id="gameover">OVER</a>
+			</div>
+		</footer>
+	</section>
+
+	<section data-role="page" id="results">
+		<header data-role="header" data-theme="b">
+			<h1>Pop Trumps</h1>
+		</header>
+
+		<div data-role="content">	
+			<h2></h2>
+			<h3>The game was a <span></span></h2>
+			<p>So far you've played <b></b>, and won <span></span> of them.</p>
+		</div>
+
+		<footer data-role="footer" data-theme="c">
+			<div data-role="controlgroup" data-type="horizontal">
+				<a href="#album" data-role="button" data-direction="reverse" id="continue">CONTINUE</a>
+				<a href="#home" data-role="button">HOME</a>
+			</div>
+		</footer>
+	</section>
+</body>
+</html>
